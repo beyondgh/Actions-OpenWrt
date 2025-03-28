@@ -17,5 +17,7 @@
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 
-rm -rf feeds/packages/lang/golang
-git clone https://github.com/kenzok8/golang feeds/packages/lang/golang
+#rm -rf feeds/packages/lang/golang
+#git clone https://github.com/kenzok8/golang feeds/packages/lang/golang
+
+git checkout v24.10.0
