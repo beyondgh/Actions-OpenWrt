@@ -20,4 +20,4 @@
 #rm -rf feeds/packages/lang/golang
 #git clone https://github.com/kenzok8/golang feeds/packages/lang/golang
 
-git checkout v24.10.0
+#git checkout v24.10.0
