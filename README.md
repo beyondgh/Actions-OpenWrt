@@ -1,5 +1,5 @@
 <h1>基于github actions编译的immortalwrt(24.10)x86-64固件。</h1>
-<h3>来源于P3TERX(https://github.com/P3TERX/Actions-OpenWrt)， 同时参考、移植了Haiibo(https://github.com/haiibo/OpenWrt) 的代码过来，解决了编译时空间不够问题。</h3>
+<h3>来源于<a href='https://github.com/P3TERX/Actions-OpenWrt' target='_blank'>P3TERX</a>， 同时参考、移植了<a href='https://github.com/haiibo/OpenWrt' target='_blank'>Haiibo</a> 的代码过来，解决了编译时空间不够问题。</h3>
 <strong>集成几个主要科学插件（homeproxy、niki、nekobox、openclash、passwall、passwall2、ssr-plus）</strong>
 <div>默认编译的是x86-64固件，集成的插件如下：</div>
 luci-app-accesscontrol-plus<br/>
