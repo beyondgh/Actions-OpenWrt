@@ -44,4 +44,6 @@ open-vm-tools<br/>
 
 <h2>包含几乎所有（除了去掉几个存在冲突之外）的网络、USB驱动。</h2>
 
+<h4>默认后台地址：192.168.50.6  密码为空</h4>
+
 <div>默认固件大小设置为4G（4096M，可在.github/workflows/immortalwrt-builder.yml里搜索4096修改)，其它配置可在diy-part1.sh、diy-part2.sh进行修改。修改编译默认配置文件.config内容为你的，feeds.conf.default则为相应分支的默认feeds，可修改成你需要的。</div>
