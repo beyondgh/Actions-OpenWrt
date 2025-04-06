@@ -7,7 +7,7 @@
 <br/>
 <div>此项目主要是解决了集成多插件后于github actions编译时空间存储不够的问题，至于需要多少插件及驱动全凭你自己自由决择。但切记不可引入太多软件包的第三方仓库，否则过多的软件包的话会导致编译时长超过github限制的6小时而自动被github ban掉。正确的做法是一个个的引入第三方相应的包或仓库，又或者是精简后（不存在过多多余的包）的仓库。如果是需要引入过多包的仓库（例如samll-package），在feed或clone后将不需要的包进行删除后再进行编译，只要不是选择了太多的插件包，基本不会超过限制的6小时。以下说明作废，本项目主要目的是解决了编译时空间不够的问题，也是在解决了基本问题后，需要什么插件就任君选择了，所以以下原来的说明作废。</div>
 <br/>
-~~<strong class='text-decoration:line-through;'>集成几个主要科学插件（homeproxy、niki、nekobox、openclash、passwall、passwall2、ssr-plus）</strong>
+<strong class='text-decoration:line-through;'>~~集成几个主要科学插件（homeproxy、niki、nekobox、openclash、passwall、passwall2、ssr-plus）~~</strong>
 <div class='text-decoration:line-through;'>默认编译的是x86-64固件，集成的插件如下：</div>
 <p class='text-decoration:line-through;'>luci-app-accesscontrol-plus</p>
 <p class='text-decoration:line-through;'>luci-app-adguardhome</p>
