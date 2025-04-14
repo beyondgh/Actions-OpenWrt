@@ -19,6 +19,7 @@ on:
 env:
   REPO_URL: https://github.com/immortalwrt/immortalwrt
   REPO_BRANCH: openwrt-24.10
+  BRANCH_TAG: v24.10.0-rc7
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: noOtherHellword-Ext4.config
   DIY_P1_SH: diy-part1.sh
@@ -86,10 +87,10 @@ jobs:
 
     - name: Load custom feeds
       run: |
-        [ -e $FEEDS_CONF ] && mv $FEEDS_CONF openwrt/feeds.conf.default
+        #[ -e $FEEDS_CONF ] && mv $FEEDS_CONF openwrt/feeds.conf.default
         chmod +x $DIY_P1_SH
         cd openwrt
-        #git checkout v24.10.0
+        git checkout $BRANCH_TAG
         $GITHUB_WORKSPACE/$DIY_P1_SH
 
     - name: Update feeds
