@@ -10,7 +10,7 @@
 # See /LICENSE for more information.
 #
 
-name: OpenWrt Builder5
+name: OpenWrt Builder4
 
 on:
   repository_dispatch:
