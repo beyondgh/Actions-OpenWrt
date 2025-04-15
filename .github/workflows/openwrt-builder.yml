@@ -19,7 +19,7 @@ on:
 env:
   REPO_URL: https://github.com/openwrt/openwrt
   REPO_BRANCH: openwrt-24.10
-  BRANCH_TAG: v24.10.0-rc7
+  BRANCH_TAG: v24.10.1
   FEEDS_CONF: openwrt.feeds.conf.default
   CONFIG_FILE: openwrt_ALL.config
   DIY_P1_SH: diy-part1.sh
@@ -178,12 +178,13 @@ jobs:
         #body_path: release.txt
         body: |
           ### 📒 固件信息
-          - 💻 平台架构: x86_64
-          - ⚽ 固件源码: OpenWrt
-          - 💝 源码分支: openwrt-24.10
-          - 🚀 内核版本: 
-          - 🌐 默认地址: 192.168.50.9
-          - 🔑 默认密码: 空（默认密码为空）
+          - 💻 平台架构：x86_64
+          - ⚽ 固件源码：OpenWrt
+          - 💝 源码分支：openwrt-24.10（v24.10.1）
+          - 🚀 内核版本：
+          - 🌐 默认地址：192.168.50.9
+          - 👤 默认用户：root
+          - 🔑 默认密码：空（默认密码为空）
         files: ${{ env.FIRMWARE }}/*
 
     - name: Delete workflow runs
