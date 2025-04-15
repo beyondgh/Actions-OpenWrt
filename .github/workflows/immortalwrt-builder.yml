@@ -19,7 +19,7 @@ on:
 env:
   REPO_URL: https://github.com/immortalwrt/immortalwrt
   REPO_BRANCH: openwrt-24.10
-  BRANCH_TAG: v24.10.0-rc7
+  BRANCH_TAG: v24.10.0-rc3
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: noOtherHellword-Ext4.config
   DIY_P1_SH: diy-part1.sh
@@ -180,7 +180,7 @@ jobs:
           ### 📒 固件信息
           - 💻 平台架构: x86_64
           - ⚽ 固件源码: ImmortalWrt
-          - 💝 源码分支: openwrt-24.10(v24.10.0-rc7)
+          - 💝 源码分支: openwrt-24.10(v24.10.0-rc3)
           - 🚀 内核版本: 
           - 🌐 默认地址: 192.168.50.9
           - 🔑 默认密码: 空（默认密码为空）
