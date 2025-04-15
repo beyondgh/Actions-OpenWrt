@@ -175,7 +175,15 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
         tag_name: ${{ steps.tag.outputs.release_tag }}
-        body_path: release.txt
+        #body_path: release.txt
+        body: |
+          ### 📒 固件信息
+          - 💻 平台架构: x86_64
+          - ⚽ 固件源码: ImmortalWrt
+          - 💝 源码分支: openwrt-24.10(v24.10.0-rc7)
+          - 🚀 内核版本: 
+          - 🌐 默认地址: 192.168.50.9
+          - 🔑 默认密码: 空（默认密码为空）
         files: ${{ env.FIRMWARE }}/*
 
     - name: Delete workflow runs
