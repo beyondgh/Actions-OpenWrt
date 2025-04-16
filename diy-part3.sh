@@ -1,4 +1,7 @@
 #!/bin/bash
+
+# LEDE
+
 #
 # https://github.com/P3TERX/Actions-OpenWrt
 # File name: diy-part2.sh
@@ -17,7 +20,7 @@
 #git clone https://github.com/sbwml/openwrt_helloworld package/helloworld
 
 #增加上面仓库内没有的第三方包，有多少你想要的就增加多少个
-#git clone https://github.com/sbwml/openwrt_helloworld package/helloworld
+git clone https://github.com/sbwml/openwrt_helloworld package/helloworld
 git clone https://github.com/kingyond/luci-app-accesscontrol-plus package/luci-app-accesscontrol-plus
 git clone https://github.com/rufengsuixing/luci-app-adguardhome package/luci-app-adguardhome
 #git clone https://github.com/sirpdboy/luci-app-advancedplus package/luci-app-advancedplus
