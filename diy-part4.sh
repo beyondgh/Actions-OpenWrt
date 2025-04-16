@@ -20,7 +20,7 @@
 git clone https://github.com/sbwml/openwrt_helloworld package/helloworld
 git clone https://github.com/kingyond/luci-app-accesscontrol-plus package/luci-app-accesscontrol-plus
 git clone https://github.com/rufengsuixing/luci-app-adguardhome package/luci-app-adguardhome
-git clone https://github.com/sirpdboy/luci-app-advancedplus package/luci-app-advancedplus
+#git clone https://github.com/sirpdboy/luci-app-advancedplus package/luci-app-advancedplus
 git clone https://github.com/sirpdboy/chatgpt-web.git package/luci-app-chatgpt
 git clone https://github.com/sirpdboy/luci-app-eqosplus package/luci-app-eqosplus
 git clone https://github.com/lwb1978/openwrt-gecoosac package/openwrt-gecoosac
@@ -28,7 +28,7 @@ git clone https://github.com/riverscn/openwrt-iptvhelper package/luci-app-iptvhe
 git clone https://github.com/sbwml/luci-app-mosdns -b v5 package/mosdns
 #git clone https://github.com/Thaolga/openwrt-nekobox  package/openwrt-nekobox
 git clone https://github.com/sirpdboy/netspeedtest.git package/netspeedtest
-git clone https://github.com/sirpdboy/luci-app-netwizard package/luci-app-netwizard
+#git clone https://github.com/sirpdboy/luci-app-netwizard package/luci-app-netwizard
 #git clone https://github.com/nikkinikki-org/OpenWrt-nikki package/luci-app-nikki
 git clone https://github.com/selfcan/luci-app-onliner package/luci-app-onliner
 git clone https://github.com/sirpdboy/luci-app-partexp.git package/luci-app-partexp
