@@ -84,15 +84,15 @@ jobs:
         df -hT $GITHUB_WORKSPACE
         git clone $REPO_URL -b $REPO_BRANCH openwrt
         #ln -sf /workdir/openwrt $GITHUB_WORKSPACE/openwrt
+        cd openwrt
+        git checkout $BRANCH_TAG
 
     - name: Load custom feeds
       run: |
-        cd openwrt
-        git checkout $BRANCH_TAG
-        cd ~
         [ -e $FEEDS_CONF ] && mv $FEEDS_CONF openwrt/feeds.conf.default
         chmod +x $DIY_P1_SH
         cd openwrt
+        #git checkout $BRANCH_TAG
         $GITHUB_WORKSPACE/$DIY_P1_SH
 
     - name: Update feeds
