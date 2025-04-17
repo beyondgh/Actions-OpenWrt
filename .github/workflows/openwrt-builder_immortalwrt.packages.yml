@@ -20,7 +20,7 @@ env:
   REPO_URL: https://github.com/openwrt/openwrt
   REPO_BRANCH: openwrt-24.10
   BRANCH_TAG: v24.10.1
-  FEEDS_CONF: openwrt.feeds.conf.default
+  FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: openwrt_ALL-immortalwrt.packages.config
   DIY_P1_SH: diy-part1.sh
   DIY_P2_SH: diy-part5.sh
