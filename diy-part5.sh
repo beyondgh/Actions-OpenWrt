@@ -41,6 +41,8 @@ git clone https://github.com/sirpdboy/luci-app-taskplan package/luci-app-taskpla
 #git clone https://github.com/zxl78585/luci-app-autoreboot.git package/luci-app-autoreboot
 #git clone https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon
 
+git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
+
 # Modify default IP
 sed -i 's/192.168.1.1/192.168.50.9/g' package/base-files/files/bin/config_generate
 
