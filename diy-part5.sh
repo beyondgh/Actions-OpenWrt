@@ -37,12 +37,12 @@ git clone https://github.com/sirpdboy/luci-app-poweroffdevice package/luci-app-p
 git clone https://github.com/linkease/istore package/luci-app-istore
 git clone https://github.com/sirpdboy/luci-app-taskplan package/luci-app-taskplan
 
-git clone https://github.com/lisaac/luci-app-diskman package/luci-app-diskman
-git clone https://github.com/zxl78585/luci-app-autoreboot.git package/luci-app-autoreboot
-git clone https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon
+#git clone https://github.com/lisaac/luci-app-diskman package/luci-app-diskman
+#git clone https://github.com/zxl78585/luci-app-autoreboot.git package/luci-app-autoreboot
+#git clone https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon
 
 # Modify default IP
-sed -i 's/192.168.1.1/192.168.50.6/g' package/base-files/files/bin/config_generate
+sed -i 's/192.168.1.1/192.168.50.9/g' package/base-files/files/bin/config_generate
 
 # Modify default theme
 #sed -i 's/luci-theme-bootstrap/luci-theme-argon/g' feeds/luci/collections/luci/Makefile
