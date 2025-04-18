@@ -41,7 +41,11 @@ git clone https://github.com/sirpdboy/luci-app-taskplan package/luci-app-taskpla
 #git clone https://github.com/zxl78585/luci-app-autoreboot.git package/luci-app-autoreboot
 #git clone https://github.com/jerrykuku/luci-theme-argon.git package/luci-theme-argon
 
+#使用immortalwrt packages时需要处理
 rm -rf feeds/packages/net/open-app-filter
+
+#使用smallpackage时需要处理
+#rm -rf package/smpackage/{amule,luci-app-bandwidthd,luci-app-bypass,luci-app-dogcom,luci-app-gowebdav,luci-app-nginx-pingos,luci-app-ssr-plus,natflow}
 
 git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
 
