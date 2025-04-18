@@ -43,11 +43,11 @@ git clone https://github.com/sirpdboy/luci-app-taskplan package/luci-app-taskpla
 
 #使用immortalwrt packages时需要处理
 rm -rf feeds/packages/net/open-app-filter
+git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
 
 #使用smallpackage时需要处理
 #rm -rf package/smpackage/{amule,luci-app-bandwidthd,luci-app-bypass,luci-app-dogcom,luci-app-gowebdav,luci-app-nginx-pingos,luci-app-ssr-plus,natflow}
 
-git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
 
 # Modify default IP
 sed -i 's/192.168.1.1/192.168.50.9/g' package/base-files/files/bin/config_generate
