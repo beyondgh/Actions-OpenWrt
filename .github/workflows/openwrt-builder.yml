@@ -184,9 +184,9 @@ jobs:
           - ⚽ 固件源码：OpenWrt
           - 💝 源码分支：openwrt-24.10（v24.10.1）
           - 🚀 内核版本：
-          - 🌐 默认地址：192.168.50.9
+          - 🌐 默认地址：192.168.50.9（或192.168.1.1）
           - 👤 默认用户：root
-          - 🔑 默认密码：空（默认密码为空）
+          - 🔑 默认密码：空或password
         files: ${{ env.FIRMWARE }}/*
 
     - name: Delete workflow runs
