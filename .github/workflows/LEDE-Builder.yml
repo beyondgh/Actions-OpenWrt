@@ -180,10 +180,10 @@ jobs:
           - 💻 平台架构：x86_64
           - ⚽ 固件源码：Lean's LEDE
           - 💝 源码分支：master
-          - 🚀 内核版本：	6.6.87
-          - 🌐 默认地址：192.168.50.9
+          - 🚀 内核版本：6.6.87
+          - 🌐 默认地址：192.168.50.9（或192.168.1.1）
           - 👤 默认用户：root
-          - 🔑 默认密码：password
+          - 🔑 默认密码：空或password
         files: ${{ env.FIRMWARE }}/*
 
     - name: Delete workflow runs
